@@ -1,8 +1,8 @@
 document.getElementById('btnTongLuong').onclick = function(){
-    //input nguoi dung nhap so ngay lam viec
+    //input nguoi dung nhap so ngay lam viec = number
     var ngayLam = +document.getElementById('ngayLam').value;
 
-    //output tong tien luong
+    //output tong tien luong = number
     var tongLuong = 0;
 
     //process:
@@ -13,14 +13,14 @@ document.getElementById('btnTongLuong').onclick = function(){
 
 
 document.getElementById('btnTrungBinhCong').onclick = function(){
-    //input nguoi dung nhap 5 số thực
+    //input nguoi dung nhap 5 số thực = number
     var so1 = +document.getElementById('so-1').value;
     var so2 = +document.getElementById('so-2').value;
     var so3 = +document.getElementById('so-3').value;
     var so4 = +document.getElementById('so-4').value;
     var so5 = +document.getElementById('so-5').value;
    
-    //output
+    //output trungbinhKQ = number
     var trungBinh5 = 0;
 
     //process
@@ -32,11 +32,11 @@ document.getElementById('btnTrungBinhCong').onclick = function(){
 
 
 document.getElementById('btnVND').onclick = function(){
-    //input nguoi dung nhap tien USD
+    //input nguoi dung nhap tien USD = number
     var tienUSD = +document.getElementById('tienUSD').value;
 
    
-    //output
+    //output tien = number
     var tienVND = 0;
 
     //process
